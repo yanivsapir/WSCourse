@@ -1,0 +1,11 @@
+{
+  "name": "hotel-review-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hotelReviewHandler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yaniv sapir",
+  "license": "ISC"
+}
