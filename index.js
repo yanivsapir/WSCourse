@@ -10,9 +10,9 @@ http.createServer(function (req, res){
     main();
     res.writeHeader(200,{'Content-Type':'text/plain'});
     res.end(data + "success");
-}).listen(3000,'127.0.0.1');
+}).listen(8080,'127.0.0.1');
 
-console.log('listening on port 3000..')
+console.log('listening on port 8080..')
 
 function main(){
     var hrh = new hotelReviewHanlder("YS Hotel","Sport");
